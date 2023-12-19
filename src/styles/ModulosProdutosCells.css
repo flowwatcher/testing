@@ -1,0 +1,570 @@
+#prodModsGridSection .ulStyleCard {
+    margin: 0;
+    margin-bottom: 17px;
+    line-height: 32px;
+    font-size: 1.25rem;
+}
+
+#prodModsgridSection .card-button {
+    line-break: auto !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+}
+
+#proModsgridSection .ddWidther {
+    float: right !important;
+    align-self: center !important;
+    justify-self: flex-end !important;
+}
+
+#proModsgridSection .iconWidther {
+    min-width: 49px;
+    align-self: center !important;
+}
+
+#prodModsGridSection ul,
+li,
+a {
+    padding: 0px;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+#prodModsGridSection li::before {
+    content: "•";
+    color: #53993c;
+    padding-right: 1rem;
+}
+
+#prodModsGridSection .sectionTitle h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 23px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: var(--color-forestgreen);
+    font-family: var(--font-SpaceTTF) !important;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+#prodModsGridSection .textoProdMain {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 39px;
+    text-align: left;
+    flex-direction: column;
+    color: #001328;
+    margin-top: 12px;
+    flex-shrink: 1;
+    gap: 59px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#prodModsGridSection .textoProdMain p {
+    line-height: 34px;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #001328;
+    opacity: 1;
+}
+
+#prodModsGridSection .textContainer2 b {
+    font-weight: 600;
+}
+
+#prodModsGridSection .prodTitleContainer {
+    text-align: left;
+}
+
+#prodModsGridSection .prodTitleContainer h2 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #53993C;
+    opacity: 1;
+}
+
+#prodModsGridSection .prodDesc {
+    text-align: left;
+    flex-direction: row;
+    color: #001328;
+    gap: 20px;
+}
+
+#prodModsGridSection .prodDesc h4 {
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#prodModsGridSection .prodDesc p {
+    font-family: var(--font-SpaceTTF) !important;
+    margin-bottom: 20px;
+    line-height: 34px;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #001328;
+    opacity: 1;
+}
+
+#prodModsGridSection .prodDesc p span {
+    font-family: var(--font-SpaceTTF) !important;
+    font-weight: 500;
+}
+
+#prodModsGridSection .containerGridGapper {
+    gap: 35px 0px;
+    flex-wrap: wrap;
+}
+
+#prodModsGridSection .containerBtnGridGapper {
+    margin-top: 65px;
+}
+
+#prodModsGridSection .btnModGrid {
+    flex-basis: 1;
+    cursor: pointer;
+    height: 73px;
+    border: 0;
+    background-color: var(--color-forestgreen);
+    border-radius: var(--br-21xl);
+    max-width: 489px;
+    flex-direction: row;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: var(--font-SpaceTTF) !important;
+    color: var(--color-white);
+}
+
+#prodModsGridSection .card-button {
+    display: flex;
+    text-align: left;
+    max-width: 358px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-height: 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#prodModsGridSection .box-button {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-6xl) 24px;
+    max-width: 422px;
+    gap: 1.2rem;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 130px;
+}
+
+#prodModsGridSection .box-button .boxCellText {
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: 1.25rem !important;
+    font-weight: 400;
+    max-width: 242px;
+    color: var(--color-gray-200);
+    align-self: center;
+    text-align: left;
+    line-break: auto;
+    height: fit-content;
+}
+
+#prodModsGridSection .card {
+    border-radius: var(--br-6xl);
+    background-color: var(--color-white);
+    box-shadow: 0 20px 40px rgba(59, 152, 72, 0.22);
+    border: none;
+    min-height: 130px !important;
+}
+
+#prodModsGridSection .box {
+    background-color: var(--color-white);
+    box-shadow: none;
+    border-radius: var(--br-6xl);
+    border: none;
+    min-height: 136px !important;
+}
+
+#prodModsGridSection .card-icon {
+    font-size: 1.25rem;
+}
+
+#prodModsGridSection .card-body li,
+ul {
+    font-size: 1rem !important;
+    text-align: left !important;
+    color: var(--color-gray-200);
+    font-weight: 300;
+    padding-left: 0;
+}
+
+#prodModsGridSection .ulStyleColapse {
+    list-style: none;
+    margin: 0;
+    padding: 0px 2.5rem !important;
+}
+
+#prodModsGridSection .card-body li::before {
+    content: "•";
+    color: #53993c;
+    padding-right: 1rem;
+}
+
+#prodModsGridSection .liStyleCollapse {
+    position: relative;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+#prodModsGridSection .cellOpenStyle {
+    border-radius: var(--br-6xl);
+    max-width: 442px;
+    padding: var(--padding-6xl) 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #fff;
+    height: auto;
+}
+
+#prodModsGridSection .cellModTextOpen li::before {
+    content: "•";
+    color: #53993c;
+    padding-right: 1rem;
+}
+
+#prodModsGridSection .ddiconmodClosed {
+    float: right;
+    width: 26px;
+    height: 15px;
+    content: url(../../public/DdIconMod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#prodModsGridSection .ddiconmodOpen {
+    right: right;
+    width: 26px;
+    height: 15px;
+    content: url(../../public/ddiconmodUp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#prodModsGridSection .cellAssMultPepIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModAPEP.png);
+}
+
+#prodModsGridSection .cellFaturamentoIcon {
+    max-height: 46px;
+    max-width: 51px;
+    content: url(../../public/IconMFAT.png);
+}
+
+#prodModsGridSection .cellFinanceiroIcon {
+    max-height: 46px;
+    max-width: 51px;
+    content: url(../../public/IconMFIN.png);
+}
+
+#prodModsGridSection .cellModApoioAssistIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconMASS.png);
+}
+
+#prodModsGridSection .cellModGestAdmIcon {
+    max-height: 46px;
+    max-width: 51px;
+    content: url(../../public/IconMGAE.png);
+}
+
+#prodModsGridSection .cellAtendimentoIcon {
+    max-height: 46px;
+    max-width: 51px;
+    content: url(../../public/IconMATEN.png);
+}
+
+#prodModsGridSection .cellSuprimentosIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModSup.png);
+}
+
+#prodModsGridSection .cellModApoioAdmIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModAPADM.png);
+}
+
+#prodModsGridSection .cellModOpenHIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModOPH.png);
+}
+
+#prodModsGridSection .cellModTIIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModTI.png);
+}
+
+#prodModsGridSection .cellModAnalytIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModAna.png);
+}
+
+#prodModsGridSection .cellModResultExamIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModResultExam.png);
+}
+
+#prodModsGridSection .cellModAgendaMedIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModAgenda.png);
+}
+
+#prodModsGridSection .cellModLabIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconModLab.png);
+}
+
+#prodModsGridSection .cellModSISABIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconISISB.png);
+}
+
+#prodModsGridSection .cellModFichasIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconCDS.png);
+}
+
+#prodModsGridSection .cellModAppCelIcon {
+    max-width: 51px;
+    max-height: 46px;
+    content: url(../../public/IconMAPP.png);
+}
+
+#prodModsGridSection .boxRegColIcon {
+    max-height: 55px;
+    content: url(../../public/IconRegColeta.png);
+}
+
+#prodModsGridSection .boxPrintIcon {
+    max-height: 55px;
+    content: url(../../public/IconPrintWorkMap.png);
+}
+
+#prodModsGridSection .boxResExamOnIcon {
+    max-height: 55px;
+    content: url(../../public/IconResultExam.png);
+}
+
+#prodModsGridSection .boxHistResIcon {
+    max-height: 55px;
+    content: url(../../public/IconHistRes.png);
+}
+
+#prodModsGridSection .boxDigitalSignIcon {
+    max-height: 55px;
+    content: url(../../public/IconAssDigi.png);
+}
+
+#prodModsGridSection .boxRelGestEstIcon {
+    max-height: 55px;
+    content: url(../../public/IconRelaGestEstatistica.png);
+}
+
+.prodModsGridSection {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.prodModsGridSection p {
+    font-size: 1rem !important;
+}
+
+.prodModsGridSection h2 {
+    font-size: 3.5rem !important;
+}
+
+#prodModsGridSection .card-button .cardCellText {
+    display: flex;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: 1rem !important;
+    font-weight: 400;
+    width: 100% !important;
+    max-width: 216px;
+    min-height: 116px;
+    color: var(--color-gray-200);
+    line-break: auto;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#prodModsGridSection .iconWidther {
+    padding-left: 3% !important;
+    padding-right: 5% !important;
+    display: flex !important;
+    width: 15% !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#prodModsGridSection .cardCellDesc {
+    font-size: 1rem !important;
+    text-align: left !important;
+    color: var(--color-gray-200);
+    font-weight: 300;
+    align-self: center !important;
+}
+
+@media screen and (max-width: 991px) {
+    #prodModsGridSection .ulStyleColapse {
+        padding: 0px 0px 0px 1.25rem !important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    #prodModsGridSection .iconWidther {
+        max-width: 45px !important;
+        min-width: 45px !important;
+        padding-right: unset !important;
+        display: flex !important;
+        width: unset !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    #prodModsGridSection .card-button .cardCellText {
+        font-size: 1rem !important;
+        padding: 15% 9%;
+    }
+
+    #prodModsGridSection .cardCellText span {
+        font-size: 6px !important;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #prodModsGridSection .ulStyleColapse {
+        padding: 0px 1rem !important;
+    }
+
+    #prodModsGridSection .card-button .cardCellText {
+        font-size: 0.85rem !important;
+        padding: 15% 9%;
+    }
+
+    #prodModsGridSection .cardCellText span {
+        font-size: 6px !important;
+    }
+
+    #prodModsGridSection .iconWidther {
+        max-width: 45px !important;
+        min-width: 45px !important;
+        padding-right: unset !important;
+        display: flex !important;
+        width: unset !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width:1014px) and (max-width:1180px) {
+    #prodModsGridSection .cardCellText {
+        color: var(--color-gray-200);
+        font-weight: 400;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+}
+
+@media(min-width: 1180px) {
+    #prodModsGridSection .cardCellText {
+        color: var(--color-gray-200);
+        font-weight: 400;
+        padding-right: 5%;
+        padding-left: 5%;
+        text-align: left;
+    }
+
+    #prodModsGridSection .btnModGrid .card-icon {
+        padding-right: 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .prodModsGridSection {
+        font-size: 1.25rem !important;
+        padding: 40px;
+    }
+
+    .prodModsGridSection p {
+        font-size: 1.25rem !important;
+    }
+
+    .prodModsGridSection h2 {
+        font-size: 3rem !important;
+    }
+}
+
+@media (min-width: 992px) and(max-width:1014px) {
+    .prodModsGridSection {
+        font-size: 1.5rem !important;
+        padding: 60px;
+    }
+
+    .prodModsGridSection p {
+        font-size: 1.5rem !important;
+    }
+
+    .prodModsGridSection h2 {
+        font-size: 4rem !important;
+    }
+
+    #prodModsGridSection .cardCellText {
+        font-family: var(--font-SpaceTTF) !important;
+        font-size: 1.5rem !important;
+        font-weight: 400;
+        color: var(--color-gray-200);
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .prodModsGridSection h2 {
+        font-size: 2rem !important;
+        padding-bottom: 2rem;
+        width: 346px !important;
+    }
+}

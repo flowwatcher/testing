@@ -1,0 +1,246 @@
+#modalProduto .modal {
+    align-self: center;
+    justify-self: center;
+    background-color: rgba(1, 19, 40, 0.84);
+    display: flex;
+
+}
+
+.fadeColorCustom {
+    background-color: rgba(1, 19, 40, 0.84);
+}
+
+#modalProduto .modal.show .modal-dialog {
+    transform: none;
+
+    margin: 15px;
+    max-width: 1332px;
+}
+
+#modalProduto .btnDialogSubmit {
+    color: #fff !important;
+    max-width: 198px !important;
+    width: 100%;
+    height: 60px !important;
+    background: #011328 !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+}
+
+#modalProduto .modal,
+.modal-content,
+.modal-header,
+.modal-footer {
+    border: none !important;
+}
+
+#modalProduto .modal-dialog {
+    max-width: 1362px !important;
+    width: 100%;
+}
+
+#modalProduto .modal-content {
+    padding: 47px 127px;
+    border: none !important;
+
+    max-width: 1362px;
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 20px 40px #3B984839;
+    border-radius: 25px;
+
+}
+
+@media (max-width: 768px) {
+    #modalProduto .modal-content {
+        padding: 47px 39px !important;
+        border: none !important;
+        max-width: 1362px;
+        background: #FFFFFF 0% 0% no-repeat;
+        box-shadow: 0px 20px 40px #3B984839;
+        border-radius: 25px;
+    }
+}
+
+#modalProduto .modal-header {
+    align-items: center;
+    align-self: center;
+    border: none !important;
+    max-width: 634px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    font-weight: 600;
+    opacity: 1;
+
+    font-size: inherit;
+    letter-spacing: 0px;
+    color: #53993C;
+
+}
+
+#modalProduto .btnCloseModal {
+    max-width: 96px;
+    max-height: 96px;
+    opacity: 1;
+    right: -27px;
+    top: -25px;
+
+    position: absolute;
+    flex-shrink: 2;
+}
+
+@media (max-width:1023px) {
+    #modalProduto .btnCloseModal {
+        max-width: 96px;
+        max-height: 96px;
+        opacity: 1;
+        position: absolute;
+        flex-shrink: 2;
+    }
+}
+
+.custom-input:hover {
+    outline: 2px solid #53993c;
+    box-shadow: 0 0 0 0.25rem rgba(83, 153, 60, .25);
+}
+
+.custom-checkbox:hover {
+    outline: 2px solid #53993c !important;
+    box-shadow: 0 0 0 0.25rem rgba(83, 153, 60, .25) !important;
+}
+
+#modalProduto .custom-input {
+
+    border-radius: 20px;
+    opacity: 1;
+    z-index: 7;
+    height: 77px;
+}
+
+#modalProduto .custom-label {
+    z-index: 8;
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    line-height: 28px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: fit-content;
+    background: #FFFFFF;
+    height: 26px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0px;
+    color: #011328;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.custom-select-style {
+    height: 77px;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 15px;
+}
+
+.custom-select-style:hover {
+    border-color: #53993C;
+    outline: 2px solid #53993c !important;
+    box-shadow: 0 0 0 0.25rem rgba(83, 153, 60, .25) !important;
+}
+
+
+.custom-select-style:focus {
+    border-color: #53993C;
+    box-shadow: none !important;
+
+}
+
+.custom-select-style option {
+
+    border: none !important;
+    padding: 0.5em;
+    background-color: #fff;
+    color: #011328;
+
+}
+
+#modalProduto .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #53993C;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 10px !important;
+    border: 1px solid #599551 !important;
+    width: 32px !important;
+    height: 32px !important;
+    padding-right: 15px !important;
+}
+
+.form-check-label {
+    margin-top: .25rem;
+    line-height: 28px !important;
+    margin-left: 14px;
+    text-align: left;
+    align-content: center;
+    padding-left: 14px;
+    font-family: var(--font-space-grotesk);
+    font-size: 0.95rem;
+    letter-spacing: 0px;
+    color: #011328;
+    opacity: 1;
+}
+
+.form-check-inline {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.checkBoxesRow {
+    padding: 0px 0px 1.5em 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.checkBoxGrid {
+    padding: 0px 0px 1em 0rem;
+}
+
+
+
+
+.custom-select-style::-ms-expand,
+.custom-select-style::after {
+    display: none;
+}
+
+
+.custom-select-style::before {
+    content: "\25BC";
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    transform: translateY(-50%);
+    font-size: 1rem;
+
+    color: #53993C;
+
+    pointer-events: none;
+
+}
+
+#formClinica label {
+    display: flex !important;
+}

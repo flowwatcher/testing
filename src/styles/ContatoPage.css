@@ -1,0 +1,380 @@
+#contatoPageSection {
+    display: flex;
+    margin: 0;
+    margin-top: 42px;
+    background-image: url(../../public/main@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sectionContainerContato {
+    padding-top: 1%;
+}
+
+@media screen and (min-width: 992px) {
+    #sectionContainerContato .row {
+        gap: 3rem;
+        flex-wrap: nowrap;
+    }
+
+    #contatoPageSection .containerGapper {
+        max-width: 26rem;
+    }
+}
+
+
+#leftContatoPage {
+    display: flex;
+    align-content: center;
+    line-break: auto !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+#contatoPageSection .contatoContainer {
+    padding-top: 3%;
+
+    flex-direction: row;
+    gap: 108px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#contatoPageSection .containerLeft {
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    max-width: 371px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 17px;
+}
+
+#contatoPageSection .iconImgPin,
+.iconDiv {
+    height: 39px;
+    margin-bottom: 19px;
+}
+
+#contatoPageSection .contatoTextTitle {
+    text-align: left;
+    font-size: 1.625rem;
+    font-family: var(--font-SpaceTTF) !important;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.938rem;
+    color: #53993C;
+    opacity: 1;
+}
+
+@media screen and (min-width: 1400px) {
+
+    #contatoPageSection .container,
+    #contatoPageSection .container-lg,
+    #contatoPageSection .container-md,
+    #contatoPageSection .container-sm,
+    #contatoPageSection .container-xl,
+    #contatoPageSection .container-xxl {
+        max-width: 1526px !important;
+    }
+}
+
+#contatoPageSection .contatoSubText {
+    line-height: 1.625rem;
+    text-align: left;
+    font-size: 1.063rem;
+    font-family: var(--font-SpaceTTF) !important;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#contatoPageSection .contatoSubTextFim {
+    line-height: 28px;
+    text-align: left;
+    font-size: 1rem;
+    font-family: var(--font-SpaceTTF) !important;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#contatoPageSection .containerGapper {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 614px;
+    margin-top: 5%;
+    max-width: 26rem;
+    justify-content: center;
+}
+
+#contatoPageSection .card {
+
+    width: auto;
+    height: 100%;
+    max-width: calc(1200px + (1000 - 800) * ((100vw - 1040px) / (1920 - 1040)));
+    padding-left: calc(40px + (57 - 40) * ((100vw - 1040px) / (1920 - 1040)));
+    padding-right: calc(40px + (55 - 40) * ((100vw - 1040px) / (1920 - 1040)));
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #3B984839;
+    border-radius: 25px;
+    opacity: 1;
+
+    padding-top: 5px;
+}
+
+
+#contatoPageSection .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#contatoPageSection .formTitle {
+    font-family: var(--font-SpaceTTF) !important;
+    font-weight: 600;
+    font-size: 2.85rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #53993C;
+    opacity: 1;
+    line-height: 70px;
+}
+
+#contatoPageSection .formSubTitle {
+    line-height: 28px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: var(--font-SpaceTTF);
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #011328 !important;
+    opacity: 1;
+    padding-bottom: 36px;
+}
+
+#contatoPageSection .custom-input {
+    border: 1px solid #53993C;
+    border-radius: 20px;
+    opacity: 0.8;
+    z-index: 7;
+    height: 77px;
+}
+
+#contatoPageSection .custom-input-text-area {
+    border: 1px solid #53993C;
+    border-radius: 20px;
+    opacity: 1;
+    z-index: 7;
+    height: 156px;
+}
+
+#contatoPageSection .custom-label {
+    font-family: var(--font-SpaceTTF) !important;
+    z-index: 8;
+    position: absolute;
+    top: -25%;
+    font-weight: 400;
+    left: 3%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-size: 1rem;
+    width: -moz-fit-content;
+    background: #FFFFFF;
+    height: 21px;
+    line-height: 1.75rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #53993C;
+    opacity: 1;
+}
+
+#contatoPageSection .custom-label-text-area {
+    font-family: var(--font-SpaceTTFTTF) !important;
+    z-index: 8;
+    position: absolute;
+    top: -12.45%;
+    left: 3%;
+    line-height: 1.75rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: -moz-fit-content;
+    background: #FFFFFF;
+    height: 28px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #53993C;
+    opacity: 1;
+}
+
+#contatoPageSection .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #53993C;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+#contatoPageSection .btnContatoSubmit {
+    float: right;
+    width: 198px;
+    height: 60px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff !important;
+    max-width: 198px !important;
+    background: #011328 !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+    flex-shrink: 1;
+}
+
+#contatoPageSection .contatoPageSection {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.erroLabel {
+    color: red !important;
+}
+
+.erroInput {
+    border: 1px solid red !important;
+    box-shadow: 0 0 0 0.25px red !important;
+}
+
+.erroInput:hover {
+    outline: 1px solid red !important;
+    box-shadow: 0 0 0 0.25px red !important;
+}
+
+.erroInput:focus {
+    border: 1px solid red !important;
+}
+
+.erroInputArea {
+    border: 1px solid red !important;
+    box-shadow: 0 0 0 0.25px red !important;
+    border-radius: 20px;
+    opacity: 1;
+    z-index: 7;
+    height: 156px;
+}
+
+.erroInputArea:hover {
+    outline: 1px solid red !important;
+    box-shadow: 0 0 0 0.25px red !important;
+}
+
+.erroInputArea:focus {
+    border: 1px solid red !important;
+    outline: 1px solid red !important;
+}
+
+.erroMsg {
+    font-size: 0.75rem;
+    color: red;
+}
+
+@media (max-width: 991px) {
+    #contatoPageSection {
+        margin: 0px;
+        background-image: url(../../public/bgCarouselHomeImg.png);
+    }
+
+    #formFaleConosco {
+        margin-top: 4rem;
+    }
+
+    #contatosFaleConosco {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    #leftContatoPage {
+        padding: 2rem;
+    }
+
+    #leftContatoPage .contatoTextTitle {
+        color: var(--color-white);
+    }
+
+    #contatoPageSection .containerGapper {
+        display: flex;
+        gap: 17px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: unset !important;
+        margin-top: 4rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 374px) {
+    #contatoPageSection .formTitle {
+        font-size: 1.875rem;
+    }
+
+    #contatoPageSection .contatoTextTitle {
+        font-size: 1.875rem;
+    }
+
+    #contatoPageSection .formSubTitle {
+        font-size: 1rem;
+    }
+
+    #contatoPageSection .contatoSubText {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #contatoPageSection .contatoPageSection {
+        font-size: 1.25rem;
+        padding: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contatoPageSection {
+        font-size: 1.5rem;
+        padding: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    #contatoPageSection .card {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    #contatoPageSection .card {
+        padding: 60px;
+    }
+}

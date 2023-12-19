@@ -1,0 +1,523 @@
+#navBarDiv {
+    z-index: 8;
+    margin-top: 25px;
+}
+
+.headerTopPositionR {
+    justify-content: flex-end;
+    right: 0px !important;
+
+}
+
+.navbar-expand .navbar-nav {
+    align-items: center !important;
+}
+
+.headerSize {
+    height: 45px;
+    background-color: #011328;
+    display: flex;
+    z-index: 9;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+}
+
+.navContainer {
+    margin-top: 45px !important;
+    z-index: 50 !important;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftNav {
+    flex-wrap: nowrap;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.ulStyle {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: flex-end !important;
+    align-items: center;
+    flex-direction: row;
+}
+
+.loginBtn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff !important;
+    max-width: 198px !important;
+    width: 198px;
+    height: 60px !important;
+    background: #011328 !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+    flex-shrink: 1;
+}
+
+.loginBtnCollapse {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff !important;
+    max-width: 198px !important;
+    width: 198px;
+    height: 60px !important;
+    background: #011328 !important;
+    border-radius: 40px !important;
+    border: 0 !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+    flex-shrink: 1;
+}
+
+.loginBtnCollapse:hover {
+    background: #011328 !important;
+    color: #fff !important;
+}
+
+.loginBtn:hover {
+    background: #011328 !important;
+    color: #fff !important;
+}
+
+.liNavBar {
+    display: flex;
+    align-items: center;
+    height: 21px;
+    font-weight: 500;
+    font-family: var(--font-SpaceTTF);
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+}
+
+
+
+.underActive {
+    padding: 6px 0px 0px 0px;
+    margin: 0px;
+}
+
+
+
+.iconDd {
+    letter-spacing: 0px;
+    height: 16px;
+}
+
+.liNavBarActiveContainer {
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.liNavBarTextHome {
+    line-height: 22px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+}
+
+.liNavBarText {
+    line-height: 22px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #011328;
+    opacity: 1;
+}
+
+.liNavBarTextBtn {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: medium;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.liNavBarActiveUnderline {
+    max-width: 86.46px !important;
+    margin-right: 20px;
+    overflow: hidden;
+    height: 4px;
+    object-fit: cover;
+}
+
+#navBarDiv .px-8 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+
+
+#navbarContent ul,
+li,
+a {
+    padding: 0px 12px;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+#navbarContent li {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+    padding-right: 108px !important;
+}
+
+#navbarContent .navbar-nav .dropdown-menu {
+    border: none !important;
+    text-align: left !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: rgba(0, 19, 40, 0.95) !important;
+}
+
+#navbarContent .dropdown-item {
+    border: none !important;
+    text-align: left !important;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px !important;
+    padding-top: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+    padding-bottom: 5px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    color: var(--color-white);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(52, 167, 174) !important;
+}
+
+#navBarDiv .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-items: center;
+    justify-content: end !important;
+}
+
+#navBarDiv nav {
+    position: absolute;
+    z-index: 9999;
+}
+
+.custom-dropdown-icon {
+    padding-left: 10.53px;
+}
+
+
+
+@media (max-width: 991px) {
+    #navBarDiv {
+        padding-bottom: 35px;
+        margin-top: 0px;
+    }
+
+    #navBarDiv .navbar-collapsed {
+        padding-top: 15px;
+    }
+
+    .gradient-border {
+        position: relative;
+    }
+
+    .gradient-border:before,
+    .gradient-border:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        z-index: -1;
+    }
+
+    .gradient-border:before {
+        left: 0;
+        transform: scaleX(-1);
+    }
+
+    .gradient-border:after {
+        right: 0;
+    }
+}
+
+/* 
+COLLAPSED LISTA MENU */
+
+.ulBtnColapse {
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#navbarContentCollapse .liNavBar {
+    display: flex;
+    align-items: center;
+    height: 21px;
+    font-weight: 400;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #011328;
+    opacity: 1;
+    justify-content: center;
+
+}
+
+
+#navbarContentCollapse .liNavBarText {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: var(--font-size-base);
+    letter-spacing: 0px;
+    color: #011328;
+    opacity: 1;
+}
+
+@media screen and(min-width: 1499px) {
+    #navbarContent li {
+        padding-right: 108px !important;
+    }
+}
+
+@media screen and(min-width: 1200px) and (max-width: 1498px) {
+    #navbarContent li {
+        padding-right: 72px !important;
+    }
+}
+
+@media screen and(min-width: 993px) and (max-width: 1200px) {
+    #navbarContent li {
+        padding-right: 46px !important;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width:1399px) {
+    #navbarContent li {
+        padding-right: 46px !important;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width:1099px) {
+    #navbarContent li {
+        padding-right: 28px !important;
+    }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width:1920px) {
+    #navbarContent li {
+        padding-right: 108px !important;
+    }
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    #navBarDiv {
+        z-index: 8;
+        --bs-navbar-padding-x: 4%;
+    }
+
+    header {
+        --bs-navbar-padding-x: 4%;
+        padding: 0px var(--bs-navbar-padding-x);
+
+    }
+
+    header .headerSize {
+        --bs-navbar-padding-x: 8%;
+        padding: 0px var(--bs-navbar-padding-x);
+    }
+
+}
+
+@media screen and (min-width: 1601px) {
+    #navBarDiv {
+        z-index: 8;
+        --bs-navbar-padding-x: 1.25%;
+    }
+
+    header {
+        --bs-navbar-padding-x: 4%;
+        padding: 0px var(--bs-navbar-padding-x);
+
+    }
+
+    header .headerSize {
+        --bs-navbar-padding-x: 4%;
+        padding: 0px var(--bs-navbar-padding-x);
+    }
+
+}
+
+#navBarDiv .minWidth110 {
+    min-width: 110px;
+}
+
+@media screen and(min-width:993px) and (max-width: 1008px) {
+    #navbarContent li {
+        gap: 8px !important;
+        padding-right: 28px !important;
+    }
+}
+
+@media screen and (min-width:1009px) and (max-width:1100px) {
+    #navBarDiv .loginBtn {
+        width: 128px;
+    }
+
+
+    #navbarContent li {
+        gap: 8px !important;
+        padding-right: 55px !important;
+    }
+}
+
+@media screen and (min-width:1001) {
+    #navBarDiv .loginBtn {
+        width: 198px;
+    }
+
+    #navbarContent li {
+        align-items: center;
+        display: flex;
+        gap: 18px;
+        padding-right: 70px !important;
+        padding-left: 10px !important;
+
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    #navBarDiv {
+        z-index: 8;
+        --bs-navbar-padding-x: 2%;
+    }
+
+    header {
+        --bs-navbar-padding-x: 2%;
+        padding: 0px var(--bs-navbar-padding-x);
+
+    }
+
+    header .headerSize {
+        --bs-navbar-padding-x: 2%;
+        padding: 0px var(--bs-navbar-padding-x);
+    }
+
+    #navbarContent li {
+        align-items: center;
+        display: flex;
+        gap: 18px;
+        padding-left: 10px !important;
+
+    }
+
+    #navbarContent ul,
+    li,
+    a {
+        text-decoration: none !important;
+        list-style: none !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 610px) {
+    header .px-2 {
+        padding-left: 0.15rem !important;
+        padding-right: 0.15rem !important;
+    }
+
+
+    header #phoneHeaderSection span {
+        display: none !important;
+    }
+
+    header .ulBtnColapse {
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        width: 250px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .ulBtnColapse {
+        width: 112px;
+    }
+
+    .loginBtnCollapse {
+        width: 112px;
+        height: 60px !important;
+    }
+}
+
+@media screen and (max-width:330px) {
+    header .px-2 {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+
+
+    header #dividerHeaderSection {
+        display: none !important;
+    }
+
+    header #phoneHeaderSection {
+        display: none !important;
+    }
+}

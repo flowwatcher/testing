@@ -1,0 +1,368 @@
+#casesSectionCar {
+    background: rgba(54, 186, 209, 0.04) 0% 0% no-repeat padding-box !important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.caseSectionMarginizerHome {
+    margin-top: -145px !important;
+}
+
+#casesSectionCar .casesTitle {
+    display: flex !important;
+    padding-top: 3rem !important;
+    color: #36bad1 !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    font-family: var(--font-SpaceTTF) !important;
+    opacity: 1 !important;
+    letter-spacing: 0px !important;
+    padding-bottom: 2.25rem !important;
+}
+
+#casesSectionCar .sectionSubTitle {
+    display: flex;
+    letter-spacing: 0px;
+    opacity: 0.85;
+    line-height: 42px;
+    text-align: left;
+    font-family: var(--font-SpaceTTF) !important;
+    color: #001328;
+    padding-bottom: 1.5rem !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#casesCarousel .card-body {
+    padding-top: 15% !important;
+    border: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+
+}
+
+#casesCarousel .card-body a {
+    max-height: 443px !important;
+    margin-top: 28px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#casesCarousel .card p {
+    line-height: 34px !important;
+    height: 132px !important;
+    text-align: left !important;
+    letter-spacing: 0px !important;
+    font-weight: 300 !important;
+    color: #001328 !important;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: 1.1rem !important;
+}
+
+#casesCarousel .card .casesImg {
+    position: absolute !important;
+    top: 0 !important;
+    left: 22% !important;
+    width: 122px !important;
+    height: 122px !important;
+    background: transparent 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+#casesCarousel .btn-primary {
+    border: none !important;
+    left: 0% !important;
+    max-width: 276px !important;
+    width: 100% !important;
+    height: 60px !important;
+    background: #36BAD1 0% 0% no-repeat padding-box !important;
+    border-radius: 40px !important;
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+    font-family: var(--font-SpaceTTF) !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+#casesCarousel .card-content {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 1.5rem !important;
+    display: flex !important;
+    height: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+#casesCarousel .card-title {
+    min-height: 58px !important;
+    width: 100%;
+}
+
+#casesCarousel .card h6 {
+    height: 58px !important;
+    text-align: left !important;
+    font-size: 1.65rem !important;
+    font-weight: 600 !important;
+    font-family: var(--font-SpaceTTF) !important;
+    letter-spacing: 0px !important;
+    color: #36BAD1 !important;
+    opacity: 1 !important;
+    line-height: 34px !important;
+    margin-bottom: 22px !important;
+}
+
+#casesCarousel .carousel-inner::-webkit-scrollbar {
+    display: none !important;
+}
+
+#casesCarousel .carousel-inner {
+    padding-top: 6rem !important;
+    overflow: unset !important;
+    overflow-x: unset !important;
+    height: 556px !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+#casesCarousel .carousel-control-prev-icon {
+    background-image: none !important;
+}
+
+#casesCarousel .carousel-control-next-icon {
+    background-image: none !important;
+}
+
+@media (max-width: 520px) {
+    #casesCarousel .carousel-inner {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 1441px) {
+    #casesCarousel .carousel-inner {
+        margin-left: auto !important;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1440px) {
+    #casesCarousel .carousel-item {
+        margin-right: 38px !important;
+    }
+
+    #casesCarousel .card {
+        min-width: 400px !important;
+        max-width: 400px !important;
+        max-height: 434px !important;
+    }
+}
+
+@media(min-width:1280px) {
+    #casesCarousel .carousel-inner {
+        display: flex !important;
+        justify-content: flex-start !important;
+        width: auto !important;
+    }
+
+    #casesCarousel .carousel-item {
+        margin-right: 38px !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #casesCarousel .carousel-inner {
+        display: flex !important;
+        justify-content: flex-start !important;
+        width: auto !important;
+    }
+
+    #casesCarousel .carousel-item {
+        margin-right: 38px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1001px) {
+    #casesCarousel .carousel-inner {
+        display: flex !important;
+        justify-content: flex-start !important;
+        width: auto !important;
+    }
+
+    #casesCarousel .card h6 {
+        font-size: 1.2rem;
+    }
+
+    #casesCarousel .carousel-item {
+        margin-right: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    #casesCarousel .carousel-inner {
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    #casesCarousel .card p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    #casesCarousel .card h6 {
+        font-size: 1.2rem;
+    }
+
+    #casesCarousel .card {
+        min-width: 100%;
+        max-width: 320px !important;
+        max-height: 434px;
+    }
+
+    #casesCarousel .carousel-item {
+        margin-right: 158px !important;
+        width: auto !important;
+        max-width: 320px !important;
+        max-height: 434px;
+    }
+}
+
+@media screen and (min-width:496px) {
+    #casesCarousel .card {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        border: none !important;
+        min-width: 442px !important;
+        max-width: 442px !important;
+        max-height: 434px !important;
+        height: 100% !important;
+        background-color: var(--color-white) !important;
+        box-shadow: 0 20px 40px rgba(101, 184, 206, 0.49) !important;
+        border-radius: var(--br-6xl) !important;
+        text-align: left !important;
+        color: var(--color-skyblue) !important;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    #casesCarousel .card {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        border: none !important;
+        min-width: unset !important;
+        max-width: 442px !important;
+        max-height: 434px !important;
+        height: 100% !important;
+        background-color: var(--color-white) !important;
+        box-shadow: 0 20px 40px rgba(101, 184, 206, 0.49) !important;
+        border-radius: var(--br-6xl) !important;
+        text-align: left !important;
+        color: var(--color-skyblue) !important;
+    }
+}
+
+@media (max-width: 425px) {
+    #casesCarousel .card-body a {
+        margin-top: 63px !important;
+
+    }
+
+    #casesCarousel .card {
+        max-width: 375px !important;
+        min-width: 100%;
+        max-height: 434px;
+    }
+
+    #casesCarousel .carousel-item {
+        max-width: 375px !important;
+        margin-left: 3% !important;
+        min-width: 100%;
+        max-height: 434px;
+    }
+
+    #casesCarousel .carousel-inner {
+        margin-left: 3% !important;
+        margin-right: 6% !important;
+    }
+
+    #casesCarousel .card h6 {
+        font-size: 1.35rem !important;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    #casesCarousel .card {
+        max-width: 375px !important;
+        width: 100%;
+        min-width: 318px !important;
+        max-height: 434px;
+    }
+
+    #casesCarousel .carousel-item {
+        max-width: 375px !important;
+        margin-left: unset !important;
+        min-width: 100%;
+        max-height: 434px;
+    }
+
+    #casesCarousel .carousel-inner {
+        margin-left: unset !important;
+        margin-right: unset !important;
+    }
+}
+
+@media(max-width: 512px) {
+    #casesCarousel .carousel-control-next-icon span img {
+        margin-right: 50% !important;
+    }
+
+    #casesCarousel .carousel-control-prev-icon span img {
+        margin-right: 50% !important;
+    }
+}
+
+@media(max-width: 512px) {
+    #casesCarousel .carouselBtn {
+        width: 103px;
+    }
+
+    #casesCarousel .carouselBtn span {
+        font-size: 0.55rem;
+    }
+
+    #casesCarousel .carousel-control-prev-icon img {
+        max-height: 32px !important;
+        max-width: 32px !important;
+        flex-shrink: 1;
+    }
+
+    #casesCarousel .carousel-control-next-icon img {
+        max-height: 32px !important;
+        max-width: 32px !important;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width: 991px) {
+    #casesCarousel .carousel-control-prev-icon img {
+        max-height: 48px !important;
+        max-width: 48px !important;
+        flex-shrink: 1;
+    }
+
+    #casesCarousel .carousel-control-next-icon img {
+        max-height: 48px !important;
+        max-width: 48px !important;
+        flex-shrink: 1;
+    }
+}

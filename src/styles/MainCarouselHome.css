@@ -1,0 +1,492 @@
+#sectionHomeCarousel .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+}
+
+@media screen and (min-width: 991px) {
+    #sectionHomeCarousel {
+        margin-top: -165px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #sectionHomeCarousel {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (min-width: 427px) {
+    #homeCarousel .carousel-inner .img-fluid {
+        width: auto !important;
+        flex-shrink: 1;
+        min-height: 610px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 492px) {
+    #homeCarousel .carousel-inner .img-fluid {
+        width: auto !important;
+        flex-shrink: 1;
+        min-height: 420px !important;
+    }
+}
+
+#sectionHomeCarousel {
+    display: flex !important;
+    top: 0 !important;
+
+}
+
+#homePageCarousel .carousel {
+    height: 100% !important;
+}
+
+#homeCarousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+
+#homeCarousel .carousel-control-prev-icon {
+    background-repeat: no-repeat !important;
+    background-image: none !important;
+
+}
+
+#homeCarousel .carousel-control-prev-icon img {
+    max-height: 69px !important;
+    max-width: 69px !important;
+    flex-shrink: 1 !important;
+}
+
+#homeCarousel .carousel-control-next-icon {
+    background-repeat: no-repeat !important;
+    background-image: none !important;
+}
+
+#homeCarousel .carousel-control-next-icon img {
+    max-height: 69px !important;
+    max-width: 69px !important;
+}
+
+#homeCarousel .carouselBtnLabel {
+    color: #36BAD1;
+    font-family: var(--font-SpaceTTF);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#homeCarousel h1 {
+    opacity: 1;
+    font-size: 3.5rem;
+    line-height: 4.813rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: var(--font-SpaceTTF) !important;
+    max-width: 543px;
+}
+
+#homeCarousel p {
+    color: #FFFFFF !important;
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
+    line-height: 2.125rem !important;
+    text-align: left !important;
+    max-width: 458px !important;
+}
+
+
+#homeCarousel .carouselBtn:hover {
+    display: flex !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 40px !important;
+    opacity: 1 !important;
+    letter-spacing: 0px !important;
+    color: #36BAD1 !important;
+}
+
+
+
+
+
+/* CAROUSEL PILLS */
+
+#homeCarousel .carousel-indicators {
+
+    display: flex !important;
+    gap: 8px !important;
+    z-index: 10 !important;
+    margin-bottom: 3.5%;
+}
+
+#homeCarousel .carousel-indicators [data-bs-target] {
+    border: none !important;
+    border-radius: 9999px !important;
+    background-color: #fff !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    opacity: 0.75 !important;
+}
+
+#homeCarousel .carousel-indicators button {
+    margin-right: 1rem !important;
+}
+
+#homeCarousel .carousel-indicators .active {
+    opacity: 1 !important;
+}
+
+
+/*--------------------------------------------------------------RESPONSIVE CSS DA SECTION -----------------------------------------------------------*/
+
+.sectionHomeCarousel {
+    font-size: 1rem !important;
+
+}
+
+#homeCarousel .carouselBtn {
+    display: flex !important;
+    max-width: 364px !important;
+    max-height: 80px !important;
+    height: 38px !important;
+    width: 266px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 40px !important;
+    flex-wrap: nowrap !important;
+    flex-shrink: 3rem !important;
+    opacity: 1 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+    color: #36BAD1 !important;
+
+}
+
+#homeCarousel .carouselBtn span {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+.sectionHomeCarousel p {
+    font-size: 0.75rem !important;
+}
+
+.sectionHomeCarousel h1 {
+    font-size: 1rem;
+}
+
+@media screen and (max-width:767px) {
+    #homeCarousel h1 {
+        opacity: 1;
+        line-height: 3.85rem;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-family: var(--font-SpaceTTF) !important;
+        max-width: 543px;
+    }
+
+    #homeCarousel .carousel-caption {
+        margin-bottom: 3rem !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 6rem !important;
+        padding-top: 1.25rem;
+        color: #fff;
+        text-align: center !important;
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+    }
+
+    .sectionHomeCarousel {
+        font-size: 1.25rem !important;
+
+    }
+
+    .sectionHomeCarousel p {
+        font-size: 1.25rem !important;
+    }
+
+    .sectionHomeCarousel h1 {
+        font-size: 2.5rem !important;
+    }
+
+    #homeCarousel .carousel-caption button {
+        margin-top: 27px !important;
+    }
+
+    #homeCarousel .carouselBtn span {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media screen and (min-width: 1399px) {
+
+    #homeCarousel .carousel-caption h1,
+    #homeCarousel .carousel-caption p {
+        padding-bottom: 18px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #homeCarousel .carousel-caption {
+        margin-bottom: 3rem !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 6rem !important;
+    }
+
+    .sectionHomeCarousel {
+        font-size: 1.25rem !important;
+
+    }
+
+    .sectionHomeCarousel p {
+        font-size: 1.25rem !important;
+    }
+
+    .sectionHomeCarousel h1 {
+        font-size: 2.5rem;
+    }
+
+
+    #homeCarousel .carousel-caption button {
+        margin-top: 27px !important;
+    }
+
+    #homeCarousel .carouselBtn span {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .sectionHomeCarousel h1 {
+        font-size: 3rem !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .sectionHomeCarousel {
+        font-size: 1.5rem !important;
+
+    }
+
+    #homeCarousel .carousel-caption {
+        gap: 18px !important;
+    }
+
+    #homeCarousel .carousel p {
+        font-size: 2rem !important;
+    }
+
+
+
+    #homeCarousel .carousel-inner {
+        padding-top: 0px !important;
+    }
+
+    #homeCarousel .carouselBtn span {
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+        line-height: 27px !important;
+    }
+
+}
+
+@media (max-width: 485px) {
+    #homeCarousel .carousel-inner .img-fluid {
+        width: auto !important;
+        flex-shrink: 1;
+        min-height: 610px !important;
+    }
+
+
+    #sectionHomeCarousel .sectionHomeCarousel,
+    .carousel {
+        height: 100% !important;
+    }
+
+    #homeCarousel .carousel-caption {
+
+        line-height: 0.8 !important;
+        margin-left: 0.9rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+
+    #homeCarousel .carousel-caption h1 {
+        font-size: 1.75rem !important;
+        max-height: unset !important;
+    }
+}
+
+@media (min-width:992px) {
+
+    #homeCarousel .carousel {
+        padding-top: 0px !important;
+    }
+
+    #homeCarousel .carousel-inner {
+        margin-top: 0px !important;
+    }
+
+    #homeCarousel .carouselBtn {
+        display: flex !important;
+        max-width: 364px !important;
+        max-height: 80px !important;
+        height: 60px !important;
+        width: auto !important;
+        background: #FFFFFF 0% 0% no-repeat padding-box !important;
+        border-radius: 40px !important;
+        flex-wrap: nowrap !important;
+        flex-shrink: 3rem !important;
+        opacity: 1 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        letter-spacing: 0px !important;
+        color: #36BAD1 !important;
+
+    }
+}
+
+@media (max-width: 991px) {
+
+    #sectionHomeCarousel .sectionHomeCarousel,
+    #homeCarousel .carousel {
+        margin-top: 105px !important;
+    }
+
+    #homeCarousel .carousel-control-prev-icon img {
+        max-height: 48px !important;
+        max-width: 48px !important;
+        flex-shrink: 1;
+    }
+
+    #homeCarousel .carousel-control-next-icon img {
+        max-height: 48px !important;
+        max-width: 48px !important;
+        flex-shrink: 1 !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1209px) {
+    #homeCarousel .carousel-caption {
+        top: 8rem !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 0.1rem !important;
+    }
+
+    #homeCarousel .carouselIndicators {
+        margin-bottom: 25px !important;
+    }
+}
+
+@media (min-width: 1210px) and (max-width: 1440px) {
+    #homeCarousel .carousel-caption {
+        padding-top: 50% !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+
+    #homeCarousel .carouselIndicators {
+        margin-bottom: 45px !important;
+    }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1559) {
+    #homeCarousel .carousel-caption {
+        padding-top: 50% !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+
+    #homeCarousel .carouselIndicators {
+        margin-bottom: 45px !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #homeCarousel .carousel-caption {
+        margin-bottom: 3rem !important;
+        left: 12.5% !important;
+        line-height: 3rem !important;
+        padding-bottom: 6rem !important;
+    }
+}
+
+@media (max-width: 993px) {
+    #homeCarousel .carousel-caption {
+        margin-top: 8.75em !important;
+        margin-bottom: 0rem !important;
+        font-size: .95rem !important;
+        line-height: 1.4 !important;
+        padding-bottom: 2.5rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #homeCarousel .carousel-caption {
+        margin-bottom: 1.25rem !important;
+        font-size: .95rem !important;
+        line-height: 1.4 !important;
+    }
+
+
+}
+
+@media(max-width: 492px) {
+    #homeCarousel .carousel-caption {
+        font-size: .75rem !important;
+        height: 65% !important;
+    }
+
+    #homeCarousel .carouselBtn {
+        width: 186px !important;
+    }
+
+    #homeCarousel .carouselBtn span {
+        font-size: 0.8rem !important;
+        font-weight: 600 !important;
+    }
+
+    #homeCarousel p {
+        color: #FFFFFF !important;
+        font-size: 1rem !important;
+        font-weight: normal !important;
+        line-height: 1.4 !important;
+        text-align: left !important;
+        max-width: 423px !important;
+    }
+
+    #homeCarousel .carousel-control-prev-icon img {
+        max-height: 32px !important;
+        max-width: 32px !important;
+        flex-shrink: 1 !important;
+    }
+
+    #homeCarousel .carousel-control-next-icon img {
+        max-height: 32px !important;
+        max-width: 32px !important;
+        flex-shrink: 1 !important;
+    }
+}
